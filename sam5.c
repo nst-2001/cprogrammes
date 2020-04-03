@@ -11,7 +11,7 @@ int main()
     int sum=0;
     for(int i=1 ; i<=n; i++)
     {
-        printf("\nEnter the marks");
+        printf("\nEnter the mark");
         float j;
         scanf("%f ", &j);
         sum=sum+j;
