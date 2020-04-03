@@ -9,6 +9,6 @@ void main()
     scanf("%f" ,&r);
     printf("\nEnter the time period T :");                          /*time period*/
     scanf("%f", &t);
-    i= p*r*t;                                                        /* simple interest*/
+    i= p*r*t/100;                                                        /* simple interest*/
     printf("\n Simple Interest I = %f", i);
 }
